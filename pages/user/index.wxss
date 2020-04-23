@@ -1,0 +1,122 @@
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--themeColor);
+}
+.user_info_wrap .user_img_wrap image.user_bg {
+  height: 50vh;
+  filter: blur(5rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info image.user_avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  text-align: center;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+  color: #666;
+}
+.user_content .user_main {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_content .user_main .history_wrap {
+  background-color: #fff;
+  display: flex;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_main .orders_wrap {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.user_content .user_main .orders_wrap .orders_title {
+  padding: 15rpx;
+  border-bottom: 1rpx solid #edece8;
+}
+.user_content .user_main .orders_wrap .orders_content {
+  display: flex;
+  padding: 20rpx;
+}
+.user_content .user_main .orders_wrap navigator {
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .orders_wrap navigator .iconfont {
+  color: var(--themeColor);
+}
+.user_content .user_main .address_wrap {
+  margin: 30rpx 0;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.user_content .user_main .app_info_wrap .app_info_item {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 5rpx;
+  position: relative;
+}
+.user_content .user_main .app_info_wrap .app_info_item button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.user_content .user_main .app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recommend {
+  padding: 20rpx;
+  background-color: #fff;
+  margin: 30rpx 0 80rpx;
+}
+.user_content .user_main .recommend{
+  position: relative;
+}
+.user_content .user_main .recommend button{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
